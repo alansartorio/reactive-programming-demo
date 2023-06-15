@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <main className="bg-stone-950 min-h-screen py-20 px-5 flex flex-col gap-8">
+    <main className="text-stone-200 bg-stone-950 min-h-screen py-20 px-5 flex flex-col gap-8">
       <section className="container h-full mx-auto flex flex-col justify-center items-center gap-10 bg-stone-900 p-10 rounded-xl">
         <div className="flex flex-col justify-center items-center w-full gap-2">
           <h1 className="text-5xl font-bold">Demo!</h1>

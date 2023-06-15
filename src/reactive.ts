@@ -26,5 +26,5 @@ export const useCountries = (ref: HTMLInputElement, time: number) => {
     map((event) => (event.target as HTMLInputElement).value),
     startWith(ref.value)
   );
-  return findCountries(values.pipe(debounceTime(time)));
+  return values.pipe(debounceTime(time), findCountries);
 };

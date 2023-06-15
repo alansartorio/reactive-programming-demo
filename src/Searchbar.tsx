@@ -7,7 +7,7 @@ export default forwardRef<HTMLInputElement>(function (_, ref) {
         <span className="">Your contry here</span>
         <input
           ref={ref}
-          className="bg-stone-700 placeholder-stone-400 text-stone-200 appearance-none rounded w-full py-2 px-3 leading-tight focus:outline-none"
+          className="bg-stone-700/50 placeholder-stone-400 text-stone-200 appearance-none rounded w-full py-2 px-3 leading-tight focus:outline-none"
           type="text"
           placeholder="Argentina"
         ></input>
